@@ -66,3 +66,15 @@ describe('Basketball Stats', function () {
     });
   });
 });
+
+describe('playerWithLongestName', function () {
+  it('should return the player with the longest name', function () {
+    expect(playerWithLongestName()).to.equal('Bismack Biyombo');
+  });
+});
+
+describe('doesLongNameStealATon', function () {
+  it('should return whether the player with the longest name has the most steals', function () {
+    expect(doesLongNameStealATon()).to.equal(false);
+  });
+});
